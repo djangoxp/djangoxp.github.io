@@ -1,4 +1,4 @@
-# django-xp-sp
+# djangoxp
 
 Landpage for Django Experience SP 2020 conference.
 
