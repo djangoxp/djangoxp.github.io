@@ -18,3 +18,12 @@
 .speaker-name {
   margin-bottom: 10px;
 }
+
+.link-align {
+  display: flex;
+  align-items: center;
+}
+
+.span-link-align {
+  margin-left: 12px;
+}
