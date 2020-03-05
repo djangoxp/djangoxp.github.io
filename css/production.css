@@ -24,6 +24,10 @@
   align-items: center;
 }
 
+.nav-link-align {
+  align-items: center;
+}
+
 .span-link-align {
   margin-left: 12px;
 }

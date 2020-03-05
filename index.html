@@ -40,6 +40,21 @@
         <!-- Header -->
         <header class="align--center pt3 pb2">
             <div class="container">
+              <div class="grid-row mb2">
+                <div class="grid-column span-one-third mt1">
+                  <a class="link nav-link-align" href="#palestrantes">Palestrantes</a>
+                </div>
+                <div class="grid-column span-one-third mt1">
+                  <a class="link nav-link-align" href="#patrocinadores">Patrocinadores</a>
+                </div>
+                <div class="grid-column span-one-third mt1">
+                  <a class="link nav-link-align" href="#agenda">Agenda</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+
                 <h1 class="mb3" title="Huddle"><img src="./img/djangoxp2.svg" alt="djangoxp"></h1>
                 <h2 class="mb3">Django Experience SP 2020</h2>
                 <h3 class="mb3">O primeiro evento de Django 100% gratuito no Estado de São Paulo.</h3>
@@ -96,7 +111,7 @@
                 </section>
 
                 <!-- Presenters -->
-                <section class="pt3 pb3 align--center">
+                <section id="palestrantes" class="pt3 pb3 align--center">
                     <h3 class="mb1">Palestrantes</h3>
 
                     <div class="grid-row">
@@ -173,7 +188,7 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
                 </section>
 
                 <!-- Sponsors -->
-                <section class="pt3 pb3 align--center">
+                <section id="patrocinadores" class="pt3 pb3 align--center">
                     <h3 class="mb2">Patrocinadores</h3>
 
                     <div class="grid-row">
@@ -200,30 +215,35 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
                     <img class="m1" src="./img/zopim.svg" alt="Zopim" style="height:50px"> -->
                 </section>
 
-                <section class="pt2 pb3">
+                <section id="agenda" class="pt2 pb3">
                     <h3 class="align--center mb2">Agenda</h3>
-                    <p class="align--center">Em breve.</p>
-                    <!-- <div class="grid-row"> -->
-                        <!-- <div class="grid-column span-one-third mt1"> -->
+                    <div class="grid-row">
+                        <div class="grid-column mt1">
                             <!-- <blockquote class="blockquote">
                                 <p>This conference changed my life because I found my wife&nbsp;there.</p>
                                 <p>> <cite>Randy Johnson</cite></p>
                             </blockquote> -->
-                            <!-- <ul class="no-bullets mb0">
-                              <li class="m1 block-on-mobile">Manhã</li>
-                              <li class="m1 block-on-mobile">9:00 as 9:30 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">9:30 as 10:00 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">10:05 as 10:40 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">10:45 as 11:15 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">Almoço</li>
-                              <li class="m1 block-on-mobile">9:00 as 9:30 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">9:30 as 10:00 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">10:05 as 10:40 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">10:45 as 11:15 - Palestrante - Título</li>
-                              <li class="m1 block-on-mobile">Lightning Talks</li>
-                              <li class="m1 block-on-mobile">Pybar</li>
-                            </ul> -->
-                        <!-- </div> -->
+                            <ul class="no-bullets mb0">
+                              <li class="m1 block-on-mobile"><b>Manhã</b></li>
+                              <li class="m1 block-on-mobile">09:00 Recepção + Café da manhã</li>
+                              <li class="m1 block-on-mobile">09:30 Abertura do evento</li>
+                              <li class="m1 block-on-mobile">09:40 Renzo Nuccitelli - Combinação explosiva: Pytest e Django</li>
+                              <li class="m1 block-on-mobile">10:20 Evelin de Haslinger - Relato de Experiência: aluna do Django Girls</li>
+                              <li class="m1 block-on-mobile">11:00 Henrique Bastos - Django além do MVC</li>
+                              <li class="m1 block-on-mobile">11:40 Bruno Rocha - A gestão de configurações no Django com Dynaconf</li>
+                              <li class="m1 block-on-mobile">12:00 Almoço</li>
+                              <li class="m1 block-on-mobile"><b>Tarde</b></li>
+                              <li class="m1 block-on-mobile">13:30 Letícia Silva - Django Girls - muito além de um workshop</li>
+                              <li class="m1 block-on-mobile">14:10 Orlando Saraiva - Os desafios de ensinar python e Django no ensino superior</li>
+                              <li class="m1 block-on-mobile">14:50 Igor Peternella - Django Channels: indo além do protocolo HTTP e criação de uma aplicação com chatbot!</li>
+                              <li class="m1 block-on-mobile">15:30 Coffee break</li>
+                              <li class="m1 block-on-mobile">16:00 Luiz Guilherme - E quando Django não aguenta sozinho?</li>
+                              <li class="m1 block-on-mobile">16:40 João Lugão - Dramatiq, uma alternativa ao Celery</li>
+                              <li class="m1 block-on-mobile">17:10 Lightning Talks</li>
+                              <li class="m1 block-on-mobile">17:50 Encerramento</li>
+                              <li class="m1 block-on-mobile">18:00 Pybar oficial</li>
+                            </ul>
+                        </div>
                         <!-- <div class="grid-column span-one-third mt1">
                             <blockquote class="blockquote">
                                 <p>It takes a really long time to get to this event. Worth it?&nbsp;Maybe.</p>
@@ -236,7 +256,7 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
                                 <p>> <cite>Chase Harrop</cite></p>
                             </blockquote>
                         </div> -->
-                    <!-- </div> -->
+                    </div>
                 </section>
 
                 <!-- CTA -->
@@ -260,7 +280,7 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
                 <li class="m1 block-on-mobile"><a href="https://www.instagram.com" class="link"><img class="icon" src="./img/instagram.svg" alt="Instagram"> Instagram</a></li>
                 <li class="m1 block-on-mobile"><a href="https://www.youtube.com" class="link"><img class="icon" src="./img/youtube.svg" alt="YouTube"> YouTube</a></li>
             </ul> -->
-            <p class="mt1 small text--gray">Design by <a href="https://onepagelove.com/huddle" class="link">onepagelove.com</a></p>
+            <p class="mt1 small text--gray">Design by <a href="https://onepagelove.com/huddle" class="link" target="_blank">onepagelove.com</a></p>
         </footer>
 
     </div>
