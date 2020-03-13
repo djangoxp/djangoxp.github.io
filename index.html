@@ -62,7 +62,7 @@
                 <h2>FATEC Jundiaí - SP</h2>
                 <p>Av. União dos Ferroviários, 1760 - Bairro Ponte de Campinas - Jundiaí/SP - CEP 13201-160</p>
                 <!-- <a id="clickme" href="#inscricao" class="btn btn--default" style="margin-top: 15px">INSCRIÇÃO GRATUITA</a> -->
-                <a id="clickme" href="#inscricao" class="btn btn--warning" style="margin-top: 15px">EVENTO CANCELADO!</a>
+                <a id="clickme" href="" class="btn btn--warning" style="margin-top: 15px">EVENTO CANCELADO!</a>
                 <div class="aviso p1 mt1">
                   <p><b>Aviso importante:</b> Devido à situação atual (Março/2020) da pandemia do Corona Virus, foi decidido por bem cancelar o evento Django XP edição 2020. Evitar a aglomeração de pessoas em ambiente fechado é a ação mais prudente pra evitar que a doença se espalhe.</p>
                   <p>Agradecemos a compreensão de todos. E esperamos que esse evento aconteça novamente numa próxima oportunidade.</p>
@@ -317,12 +317,12 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
     <script>
-      $("#clickme").click(function(e) {
-        e.preventDefault()
-        $('html,body').animate({
-          scrollTop: $("#inscricao").offset().top},
-          'slow');
-      });
+      // $("#clickme").click(function(e) {
+      //   e.preventDefault()
+      //   $('html,body').animate({
+      //     scrollTop: $("#inscricao").offset().top},
+      //     'slow');
+      // });
       $('#inscrever').click(function(event) {
         event.preventDefault();
         Swal.fire({
