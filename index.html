@@ -61,7 +61,12 @@
                 <h1 class="mb1">14 de Março de 2020</h1>
                 <h2>FATEC Jundiaí - SP</h2>
                 <p>Av. União dos Ferroviários, 1760 - Bairro Ponte de Campinas - Jundiaí/SP - CEP 13201-160</p>
-                <a id="clickme" href="#inscricao" class="btn btn--default" style="margin-top: 15px">INSCRIÇÃO GRATUITA</a>
+                <!-- <a id="clickme" href="#inscricao" class="btn btn--default" style="margin-top: 15px">INSCRIÇÃO GRATUITA</a> -->
+                <a id="clickme" href="#inscricao" class="btn btn--warning" style="margin-top: 15px">EVENTO CANCELADO!</a>
+                <div class="aviso p1 mt1">
+                  <p><b>Aviso importante:</b> Devido à situação atual (Março/2020) da pandemia do Corona Virus, foi decidido por bem cancelar o evento Django XP edição 2020. Evitar a aglomeração de pessoas em ambiente fechado é a ação mais prudente pra evitar que a doença se espalhe.</p>
+                  <p>Agradecemos a compreensão de todos. E esperamos que esse evento aconteça novamente numa próxima oportunidade.</p>
+                </div>
 
                 <section class="pt2 pb3">
                     <div class="grid-row">
@@ -281,7 +286,7 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
                 <!-- CTA -->
                 <section id="inscricao" class="align--center pt3 pb3">
                     <p class="h3 mb2">Por ser uma inscrição gratuita, contamos com o seu respeito a próxima pessoa participante, ou seja, se você não puder ir não se inscreva para não ocupar a vaga de outras pessoas interessadas.</p>
-                    <a id="inscrever" href="" class="btn btn--default" style="margin-top: 15px">INSCRIÇÃO GRATUITA</a>
+                    <a id="inscrever" href="" class="btn btn--secondary" style="margin-top: 15px">INSCRIÇÕES ENCERRADAS</a>
                     <p class="small mt1 text--gray">Ingressos via <a href="https://www.sympla.com.br/django-experience-2020__786954" target="_blank">Sympla</a>.</p>
                 </section>
 
@@ -329,10 +334,10 @@ micro-serviços escritos com Django para backend de aplicativos. Contribuidor de
         }).then(function (result) {
           if (result.value) {
             // doneCallbacks
-            window.open(
-              'https://www.sympla.com.br/django-experience-2020__786954',
-              '_blank'
-            );
+            // window.open(
+            //   'https://www.sympla.com.br/django-experience-2020__786954',
+            //   '_blank'
+            // );
           }
         });
       });

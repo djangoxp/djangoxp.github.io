@@ -15,6 +15,18 @@
   border-color:#4c9b4c
 }
 
+.btn--warning{
+  background-color:#ffc107;
+  border-color:#ffc107;
+  color:#000
+}
+
+.btn--secondary{
+  background-color:#c8ced3;
+  border-color:#c8ced3;
+  color:#2f353a
+}
+
 .speaker-name {
   margin-bottom: 10px;
 }
@@ -30,4 +42,10 @@
 
 .span-link-align {
   margin-left: 12px;
+}
+
+.aviso {
+  color: #2f353a;
+  border: solid 1px #ffc000;
+  background-color: #fff3cd;
 }
